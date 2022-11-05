@@ -31,9 +31,10 @@ ul {
 
 body {
   background-color:#121214;
-  background-image: url(./assets/bg.svg);
-  background-position-x:center;
-  background-position-y:-715px;
+  background-image:var(--bg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body * {
